@@ -4,7 +4,7 @@ sentencearray = sentence1.split #string to array
 reversed_array = []
 
 sentencearray.each do |word|
-reversed_array <<  word.reverse 
+reversed_array <<  word.reverse
 
 end
 reversed_array.join(" ")  # array to string
