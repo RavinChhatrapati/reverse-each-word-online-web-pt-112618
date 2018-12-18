@@ -4,5 +4,5 @@ reversed_string = []
 sentence1.each do |char|
 reversed_string.unshift(char)
 end
-sentence1.split(" "). reverse.join(" ")
+sentence1.split. reverse.join(" ")
 end
