@@ -2,9 +2,8 @@ require "pry"
 def reverse_each_word(sentence1)
 sentencearray = sentence1.split
 reversed_array = []
-binding.pry
-sentence1.each do |char|
-reversed_string.unshift(char)
+sentencearray.each do |word|
+reversed_array <<  word.reverse 
 end
-sentence1.split. reverse.join(" ")
+binding.pry
 end
