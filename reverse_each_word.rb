@@ -6,6 +6,6 @@ sentencearray = sentence1.split #string to array
 sentencearray.collect do |word|
 #reversed_array <<  word.reverse
 word.reverse
-end
+end.join(" ")
 reversed_array.join(" ")  # array to string
 end
